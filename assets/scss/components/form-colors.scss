@@ -1,0 +1,14 @@
+.c-form-colors{
+	max-width: 300px;
+	
+	.c-form{
+		&__footer{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__field{
+			width: 100%;
+		}
+	}
+}

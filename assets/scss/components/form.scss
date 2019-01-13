@@ -1,0 +1,47 @@
+.c-form{
+
+	&__body{
+		margin-bottom: 30px;
+	}
+
+	&__group{
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+
+	&__remove-field{
+		margin-left: 0.625rem;
+		padding: 0.625rem;
+	}
+
+	&__remove-field-icon{
+		max-width: 0.9375rem;
+	}
+
+	&__field{
+		margin: 0.8125rem 0;
+		height: 35px;
+		padding: 0 0.375rem;
+		border-radius: 0.125rem;
+		border: 1px solid $c-field-border;
+		transition: border .3s;
+		
+		&:hover,
+		&:focus{
+			outline: none;
+			border-color: $c-field-border_hover;
+		}
+	}
+	
+	&__validate-message{
+		position: absolute;
+		bottom: -5px;
+		left: 5px;
+
+		&_danger{
+			color: $c-red-200;
+		}
+	}
+
+}

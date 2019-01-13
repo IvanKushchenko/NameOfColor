@@ -1,0 +1,32 @@
+.c-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.25rem;
+	padding: 0.625rem 1.25rem;
+	transition: .3s;
+	&_primary{
+		color: #fff;
+		background-color: $c-primary-button;
+		
+		&:hover{
+			background-color: $c-primary-button_hover;
+		}
+	}
+
+	&_success{
+		background-color: $c-success-button;
+		color: #fff;
+		&:hover{
+			background-color: $c-success-button_hover;
+		}
+	}
+
+	&_danger{
+		background-color: $c-danger-button;
+		color: #fff;
+		&:hover{
+			background-color: $c-danger-button_hover;
+		}
+	}
+}

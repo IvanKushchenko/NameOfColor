@@ -1,0 +1,33 @@
+/**********************************/
+/************* Colors ************/
+/**********************************/
+
+$c-primary: #06f;
+$c-grey-100: #e0e0e0;
+$c-grey-200: #cacaca;
+$c-grey-300: #bdbdbd;
+$c-red-100: #e04e4e;
+$c-red-200: #ff3030;
+$c-red-300: #b52121;
+$c-blue-100: #1f263a;
+$c-green-100: #18c52d;
+$c-green-200: #21b533;
+
+/* Base */
+
+$c-code-bg: $c-blue-100;
+$c-code-text: $c-red-100;
+
+/* Components */
+
+// Button
+$c-primary-button: $c-primary;
+$c-primary-button_hover: #0047b3;
+$c-success-button: $c-green-100;
+$c-success-button_hover: $c-green-200;
+$c-danger-button: $c-red-200;
+$c-danger-button_hover: $c-red-300;
+
+// Form
+$c-field-border: $c-grey-100;
+$c-field-border_hover: $c-grey-200;

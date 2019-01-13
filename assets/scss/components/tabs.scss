@@ -1,0 +1,58 @@
+.c-tabs{
+	height: 50vh;
+	overflow-y: auto;
+
+	&__header{
+		display: flex;
+		margin-bottom: -1px;
+	}
+
+	&__item{
+		margin-right: 0.625rem;
+		padding: 0.3125rem 0.9375rem;
+		border-top-right-radius: 0.1875rem;
+		border-top-left-radius: 0.1875rem;
+		border: 1px solid $c-grey-100;
+		border-bottom-color: #fff;
+		cursor: pointer;
+		position: relative;
+		&:hover,
+		&.s-is-active{
+			background-color: $c-grey-100;
+			z-index: 5;
+		}
+	}
+
+	&__body{
+		position: relative;
+		height: 90%;
+		border: 1px solid $c-grey-100;
+	}
+
+	&__content{
+		position: absolute;
+		width: 100%;
+		padding: 0.625rem;
+		opacity: 0;
+		height: 100%;
+		
+		&_is-empty{
+			&:after{
+				content: 'No colors';
+				color: $c-grey-200;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+				text-align: center;
+				width: 100%;
+
+			}
+		}
+
+		&.s-is-showed{
+			z-index: 2;
+		}
+	}
+
+}

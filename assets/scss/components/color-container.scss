@@ -1,0 +1,11 @@
+.c-color-container{
+	margin-bottom: 0.3125rem;
+
+	&__picker{
+		margin: 0 10px;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		border: 1px solid $c-grey-200;
+	}
+}

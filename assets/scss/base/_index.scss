@@ -1,0 +1,34 @@
+@import "vendor";
+@import "variables";
+@import "typography";
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #333;
+}
+
+code{
+	display: block;
+	background-color: $c-code-bg;
+	padding: 1.25rem;
+	border-radius: 0.1875rem;
+	color: $c-code-text;
+}
+
+button{
+	border: none;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+	&:focus,
+	&:active{
+		outline: none;
+	}
+}
