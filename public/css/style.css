@@ -452,6 +452,8 @@ button {
     padding: 0.625rem;
     opacity: 0;
     height: 100%; }
+    .c-tabs__content code {
+      height: 100%; }
     .c-tabs__content_is-empty:after {
       content: 'No colors';
       color: #cacaca;

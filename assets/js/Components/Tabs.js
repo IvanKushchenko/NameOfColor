@@ -7,8 +7,6 @@ $(function(){
 
 		var tabIndex = $(this).index(),
 		parentContainer = $(this).parents('.c-tabs');
-		console.log(tabIndex);
-
 		parentContainer.find('.c-tabs__content').removeClass('s-is-showed');
 		parentContainer.find('.c-tabs__item').removeClass('s-is-active');
 		$(this).addClass('s-is-active');

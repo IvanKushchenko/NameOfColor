@@ -63,12 +63,12 @@ $(function(){
 			namesAllCssColors = [];
 		$(colors).each(function(i,item){
 			var color = $(item).val();
-			
+			console.log(color);
 			if(color.length == 4){
 				color = color[0] + color[1] + color[1] + color[2] + color[2] + color[3] + color[3];
 			}
 
-			if(!color || color.length !== 4 && color.length !== 7 || color.toUpperCase() !== ntc.name(color)[0]){
+			if(!color || color.length !== 4 && color.length !== 7){
 				var field = $(item).parent();
 				validateErrorMessage(field);
 				return false;
